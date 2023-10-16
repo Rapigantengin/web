@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kelompok Kami</title>
+    <link rel="stylesheet" href="fontawesome-free-6.4.2-web/css/all.min.css">
+    <style>
+        body{
+            margin: 50px;
+            padding: 30px;
+            font-family: 'Open Sans',sans-serif;
+            background-color: #B2533E;
+        }
+
+        header {
+            background-color: #001524;
+            color: #79AC78;
+            padding: 20px;
+            text-align: center;
+            font-family: comic sans ms;
+            font-size: large;
+        }
+
+        nav {
+            width: 100%;
+            margin: auto;
+            display: flex;
+            line-height: 80px;
+            position: sticky;
+            position: -webkit-sticky;
+            top: 0;
+            background: #B2533E;
+            z-index: 1;
+            border-bottom: 1px solid #B2533E;
+        }
+        
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+        }
+            
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #001524;
+            box-shadow: 0px 0px 10px rgba(233, 5, 5, 0.1);
+        }
+
+        .member {
+            margin-bottom: 20px;
+            padding: 10px;
+            border: 1px solid #ddd;
+            background-color: #219C90;
+        }
+
+        .member h2 a {
+            text-decoration: none;
+            color: #E9B824; 
+        }
+
+        .member img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        @media (max-width: 768px) {
+            nav ul {
+                text-align: center;
+                display: block;
+            }
+
+            nav ul li {
+                margin: 10px 0;
+                display: block;
+            }
+        }
+
+        h2 {
+            font-family: 'comic sans ms';
+            font-weight: 800;
+            font-size: 45px;
+            margin-bottom: 20px;
+            color: #79AC78;
+            width: 100%;
+            line-height: 50px;
+            text-align: center;
+       }
+
+       #copyright {
+        text-align: center;
+        width: 100%;
+        padding: 50px 0px 50px 0px;
+        margin-top: 40px;
+    }
+
+        a {
+            color: #E9B824;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Kelompok Kami</h1>
+    </header>
+    <div class="container">
+        <section id="anggota1" class="member">
+            <h2><a href="anggota1.html"><i class="fas fa-sharp fa-regular fa-user fa-bounce"></i> Anggota 1</a></h2>
+        </section>
+        <section id="anggota2" class="member">
+            <h2><a href="anggota2.html"><i class="fas fa-sharp fa-regular fa-user fa-bounce"></i> Anggota 2</a></h2>
+        </section>
+        <section id="anggota3" class="member">
+            <h2><a href="anggota3.html"><i class="fas fa-sharp fa-regular fa-user fa-bounce"></i> Anggota 3</a></h2>
+        </section>
+    </div>
+
+    <div id="copyright">
+        <div class="wrapper">
+            &copy; 2023. <b>UHUY.</b> All Rights Reserved.
+        </div>
+
+</body>
+</html>
